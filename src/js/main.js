@@ -19,7 +19,7 @@ function selectTemplate (item) {
 	var HTML = `<div class="box"><select>`;
 	for (var count=0; count < item.options.length; count++) {
 		HTML = HTML + `
-		<option> ${item.options[count].label}
+		<option> Select language...${item.options[count].label}
 			</option>`;
 }
 		HTML = HTML + "</select>  </div>";
